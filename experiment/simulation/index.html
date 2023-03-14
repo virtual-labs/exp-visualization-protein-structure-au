@@ -1,13 +1,138 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Visualization of protein</title>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
-</body>
+    <!-- Molstar CSS & JS -->
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <script type="text/javascript" src="https://www.ebi.ac.uk/pdbe/pdb-component-library/js/pdbe-molstar-plugin-3.1.0.js"></script>
+    <style>
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+      .msp-plugin ::-webkit-scrollbar-thumb {
+          background-color: #474748 !important;
+      }
+      .viewerSection {
+        padding-top: 40px;
+      } 
+      label {
+        background-color: #802652;
+        color: white;
+        padding: 10px;
+        font-family: sans-serif;
+        cursor: auto;
+        margin-top: 200px;
+        width: 1000px;
+        height:50px;
+        border-radius:180px;
+        position:relative;
+        font-size:16px;
+        line-height:12px;
+     }
+      div.at-container {
+		    display: flex;
+      }
+	    .at-item {
+		    color: #4f2037; font-weight:bold; font-size:45px;;
+		    justify-content: center;
+		    text-decoration-color:#4f2037;  
+		    position: relative;
+        align-items: center;
+        margin-left: 10%;
+        margin-top: 2%;
+	    }
+      input[type=button]{
+            width: 8%;
+            background-color: #75264d;
+            color: white;
+            padding: 12px 20px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 180px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+      #myViewer{
+        margin-left: 35%;
+        width:600px;
+        height: 600px;
+        position:relative;
+      }
+      label {
+            background-color: #802652;
+            color: white;
+            padding: 10px;
+            font-family: sans-serif;
+            cursor: auto;
+            margin-top: 200px;
+            width: 1000px;
+            height:50px;
+            border-radius:180px;
+            position:relative;
+            font-size:16px;
+            line-height:12px;
+        }
+    </style>
+  </head>
+
+  <body>
+
+    
+      <div class='at-container'>
+        <img src="C:\Users\sreelekshmis\Documents\sreelekshmis\Documents\VLab phase 3 expt\Composition of DNA\logo.png" width="300" height="100" >
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <div class='at-item' >Visualization of Protein Structure</div>
+      </div>
+      <br>
+      <br>
+      <br>
+      
+        <div style="background-color:#f0eaea;padding:15px;text-align:center;">
+          <br><br>
+      
+      <label>Enter a PDB Id:</label>&nbsp;&nbsp;&nbsp;<input type=text id="protein" value="Please enter in lowercase"><br><br>
+      <p>E.g. 7w4k, 8dov</p><br>
+      <input type="button" style="margin-left:0%;font-weight: bold;"  onclick="myFunction()" value="Submit" >&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="pdbmol_1.html"><input type="button" value="Reset"></a><br><br><br>
+
+
+      <!-- Molstar container -->
+      <div id="myViewer"></div>
+      
+    </div>
+    <p id="demo" ></p>
+   
+    
+    
+    <script>
+
+      function myFunction(){
+
+        
+
+      //Create plugin instance
+      var viewerInstance = new PDBeMolstarPlugin();
+      var proteinname= document.getElementById("protein").value;
+  
+      //Set options (Checkout available options list in the documentation)
+      var options = {
+        moleculeId: proteinname,
+        hideControls: true
+      }
+      
+      //Get element from HTML/Template to place the viewer 
+      var viewerContainer = document.getElementById('myViewer');
+  
+      //Call render method to display the 3D view
+      viewerInstance.render(viewerContainer, options);
+    }
+      
+    </script>
+  </body>
+
 </html>
