@@ -9,6 +9,7 @@
      The GUI mainly consist of two components-3D canvas (on the left side) and Toggle menu (on the right side).
      
         3D Canvas-The molecular structure of proteins in three dimensions (3D) is displayed on the 3D Canvas space, which is the space located on the left side of the screen.
+        
         Toggle Menu- Toggle menu is a set of icons located on the right side of the 3D canvas, which allows the user to have quick access to some commonly used operations in the 3D canvas. The operational functions of the toggle menu icon are mentioned below:
 
     ### Mouse Controls: 
