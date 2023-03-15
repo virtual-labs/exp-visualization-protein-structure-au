@@ -21,13 +21,13 @@ Users can visualize the secondary and tertiary structure of proteins with the ai
 ### Protein Data Bank (PDB)
 Protein Data Bank (PDB) represents a single global archive for storing, processing, and distributing three-dimensional (3D) structure data of biological macromolecules. Protein Data Bank (pdb.org) was established in 1971 and is thought to be the first open-access, molecular data resource in biology structure determination. It serves as a global repository determining structural information of proteins, DNA, RNA, and their complexes with other molecules and metal ions. It included the data derived from NMR, X-ray crystallography, cryoelectron microscopy, and theoretical modeling. Since 2003, the PDB has been managed jointly managed by the Worldwide Protein Data Bank (wwPDB), a network of four organizations
 
-    •	Research Collaboratory for Structural Bioinformatics Protein Data Bank (RCSB, PDB)
+•	Research Collaboratory for Structural Bioinformatics Protein Data Bank (RCSB, PDB)
 
-    •	PDB in Europe (PDBe) (Europe), 
+•	PDB in Europe (PDBe) (Europe), 
 
-    •	PDB Japan (PDBj) (Japan), 
+•	PDB Japan (PDBj) (Japan), 
 
-    •	Biological Magnetic Resonance Data Bank (BMRB) (USA)
+•	Biological Magnetic Resonance Data Bank (BMRB) (USA)
   
 The mission was to maintain a single Protein Data Bank repository of macromolecular structural data that can be freely and publicly available to the global community for promoting applied research in education across biosciences.  The wwPDB partners ensure adherence to the FAIR Principles of Findability-Accessibility-Interoperability-Reusability.
 
