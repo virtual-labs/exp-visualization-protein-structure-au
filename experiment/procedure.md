@@ -14,9 +14,9 @@
 <center><img src="images/3.png" title="" /></center>
 
 
-  ### Components of User interactive GUI
+### Components of User interactive GUI
     
-    The GUI mainly consist of two components-3D canvas (on the left side) and Toggle menu (on the right side):
+The GUI mainly consist of two components-3D canvas (on the left side) and Toggle menu (on the right side):
 
     3D Canvas-The molecular structure of proteins in three dimensions (3D) is displayed on the 3D Canvas space, which is the space located on the left side of the screen.
 
@@ -29,8 +29,8 @@
 <center><img src="images/4.5.png" title="" /></center>
 
 
-    The operational functions of the toggle menu icon are mentioned below:
-    #### Mouse Controls: 
+The operational functions of the toggle menu icon are mentioned below:
+#### Mouse Controls: 
     To understand and analyze the structural representation and interactions of biomolecules visualized in the simulator, users require mouse control panels to rotate and zoom to get an enlarged view of proteins. Users can view the structure with different functions like rotating, translating, zooming and clipping the structures.
     
     Rotate: click the left mouse button and move. Alternatively, use the Shift button + left mouse button and drag to rotate the canvas.
