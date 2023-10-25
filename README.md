@@ -4,7 +4,7 @@
 <b>Discipline | <b> Biotechnology and Biomedical engineering
 :--|:--|
 <b> Lab | <b> Bioinformatics and Computational Biology
-<b> Experiment|     <b> To find out the number of times a sequence is repeated in a given DNA sequence
+<b> Experiment|     <b> Visualization of Protein Structure
 
 ### About the Experiment 
 
