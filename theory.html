@@ -1,0 +1,427 @@
+<!DOCTYPE html><html lang="en"><head>
+      <!--Google Tag Manager-->
+      <script class="gtm">
+        var dataLayer = [{
+        'labName': 'Virtual Lab',
+        'discipline': 'Test',
+        'college': 'AU',
+        'phase': 'Testing',
+        'expName': 'VISUALIZATION OF PROTEIN STRUCTURE',
+        'expShortName': 'visualization-protein-structure'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NMQ9NQ');
+      </script>
+      <!--End Google Tag Manager-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="visualization-protein-structure">
+    	<meta name="developer-institute" content="AU">
+    	<meta name="learning-unit" content="VISUALIZATION OF PROTEIN STRUCTURE">
+    	<meta name="task-name" content="Theory">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css">
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css">
+    <link rel="stylesheet" href="./assets/katex_assets/katex.min.css">
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"></head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5NMQ9NQ" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+  
+      <header class="vlabs-header sticky-top bg-white">
+        <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+          
+          <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="d-flex justify-content-center">        
+            <a href="https://vlab.co.in" class="navbar-brand">
+              <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+            </a>
+          </div>
+          
+          <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center justify-content-end">
+            <div class="svc-rating-display">
+                <rating-display spreadsheetid="1x12nhpp0QvnsA6x-O1sV4IA9SAbfVsq_wiexWkutOmU" sheetname="Experiment-Database" columnname="Experiment Short Name" columnvalue="visualization-protein-structure" imagesdirectory="./plugins/svc-rating/images/">
+                </rating-display>
+            </div>      <div class="svc-rating-submit">
+                <rating-submit title="Rate" this="" experiment="">
+                </rating-submit>
+            </div>      <bug-report id="bug-report" title="[BUG REPORT] VISUALIZATION OF PROTEIN STRUCTURE" page-type="text" context-info="{&quot;organisation&quot;:&quot;Virtual Labs&quot;,&quot;developer_institute&quot;:&quot;AU&quot;,&quot;expname&quot;:&quot;VISUALIZATION OF PROTEIN STRUCTURE&quot;,&quot;labname&quot;:&quot;Virtual Lab&quot;,&quot;phase&quot;:&quot;Testing&quot;}" checkbox-json="{&quot;text&quot;:[&quot;Insufficient Content&quot;],&quot;video&quot;:[&quot;Insufficient Content&quot;],&quot;assesment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;assessment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;simulation&quot;:[&quot;Simulation Not Working&quot;,&quot;Incorrect Results/Observations&quot;,&quot;Insufficient/Incorrect Instructions&quot;],&quot;DEFAULT&quot;:[&quot;Page Not Loading&quot;,&quot;Content Not Visible&quot;,&quot;Incorrect Content&quot;]}" button_style="border: none; color: #fff; background-color: #288ec8; text-align: center; font-size: 1.05rem; border-radius: 1em;padding: 0.6em 1.2em; margin: 0 10px" position="override" custom_button_class="v-button"></bug-report>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+          <div class="row py-4 px-4 breadcrumbs">
+          	<div class="title is-4 tools">Tools</div>
+          	<span class="mx-2">
+          		<i aria-hidden="true" class="fa fa-angle-right"></i>
+          	</span>
+          	<a href="performance-report.html" class="my-2 mx-3" target="_blank">
+          		<button class="v-button">Performance Tool</button>
+          	</a>
+          	<a href="validator-report.html" class="my-2 mx-3" target="_blank">
+          		<button class="v-button">Validation Tool</button>
+          	</a>
+          </div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="modal fade popupmenu" id="popupMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                              <a href="https://vlab.co.in" class="navbar-brand">
+                                  <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+                              </a>
+                          </h5>
+                          <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body nav-menu">
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="index.html" class="p-2 ">
+                                      Aim
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="theory.html" class="p-2  current-item ">
+                                      Theory
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="pretest.html" class="p-2 ">
+                                      Pretest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="procedure.html" class="p-2 ">
+                                      Procedure
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="simulation.html" class="p-2 ">
+                                      Simulation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="posttest.html" class="p-2 ">
+                                      Posttest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="references.html" class="p-2 ">
+                                      References
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="feedback.html" class="p-2 ">
+                                      Feedback
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="index.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="theory.html" class="p-2  current-item ">
+                        Theory
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="pretest.html" class="p-2 ">
+                        Pretest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="procedure.html" class="p-2 ">
+                        Procedure
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="simulation.html" class="p-2 ">
+                        Simulation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="posttest.html" class="p-2 ">
+                        Posttest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="references.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="feedback.html" class="p-2 ">
+                        Feedback
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h2 id="visualization-of-protein-structure">Visualization of Protein Structure</h2>
+          
+            </div>
+              <h2 id="introduction">Introduction</h2>
+          <p>Proteins are the fundamental molecules that play an important role in biological processes. Protein structures are primarily formed by the condensation of amino acids forming peptide bonds. Protein structure consists of a central carbon atom (alpha carbon) linked to an amino group, a carboxyl group, a hydrogen atom, and a side chain (R group). Understanding the three-dimensional structure of a protein is a prerequisite for understanding protein function. The existing experimental methods, such as X-ray crystallography, Nuclear Magnetic Resonance (NMR), Electron Microscopy, Small Angle X-ray scattering (SAXS), and the latest X-ray Free-Electron Lasers (XFEL), provide straightforward steps to determine structural and behavioral dynamics, there are still challenges with respect to complexity, time and cost and recently it has been noted that the gap between known protein sequence and the protein structure is increasing exponentially. This marked the need for computational techniques to predict molecular dynamics of proteins that have known sequences and unknown structures, understand protein folding, and determine specific functions of proteins and drug design processes. Many computational techniques are available for protein prediction structure in structural biology, complementing expensive and laborious experimental methods with higher accuracy deepening the basic understanding of the relationship between protein structure and function.</p>
+          <h2 id="theory">Theory</h2>
+          <p>Proteins structures are complex polypeptide structures with one or more long chains of amino acid residues. All the 20 amino acids have a common central carbon atom (Cα) to which a hydrogen atom is attached, an amino group (NH2), and a carboxyl group (COOH). R group of amino acids determines the functional component and determines the polarity and charge of amino acids that finally affects both the chemical and biological properties of the protein. During protein synthesis, amino acids are joined end-to-end with the formation of peptide bonds where the carboxyl group of one amino acid condenses with the amino group of the next with the elimination of a water molecule. The process continues to elongate the peptide chain. Proteins play a wide array of roles at the cellular level to the molecular level, and research works focus on determining the complete protein structure from an atomic level. Protein functions in every task of cellular life, for example, structural proteins maintain cell shape, catalyze the biochemical reactions inside cells, monitoring metabolic signals from outside the cell and in the replication process. </p>
+          <p>Depending on the complexity level, protein structure can be divided into four main categories, primary, secondary, and tertiary, and some proteins have a quaternary structure.  In the primary structure of proteins, amino acids are arranged to form polypeptide chains. That is, each amino acid is connected to the next amino acid, the amine group of one molecule and the carboxyl group of the adjacent molecule forms a peptide bond (-CO-NH) with the elimination of the water molecule. The bond between the N terminal and C terminal of amino acids is resistant to chemical actions, heat, and mutations in this sequence can affect protein folding and protein function. </p>
+          <p>Proteins generally assume unique secondary, tertiary, and quaternary structures for producing native confirmations for a protein molecule. Secondary structures refer to the local folding of polypeptide chains with the interactions of atoms in the backbone. Hydrogen bonding occurs between local amino acid groups in the polypeptide chain.  These folding usually produce helical pleated sheets and random confirmations. Usually, there exist two types of secondary structures:  α-helix and β-pleated sheets that are thought to have structural importance in most globular and fibrous proteins. α-helix and β-pleated confirmations were the thermodynamically stable form of the secondary structure of proteins. Helical structures indicate the number of residues per turn of the helix and the distance between the alpha carbon atom of the nearby amino acid groups parallel to the helical structure. An α- helix is a right-handed coil of amino-acid sequence present in a polypeptide chain, including 4-40 amino acid residues. Here, hydrogen bonding is formed between the oxygen atom of the polypeptide backbone carbonyl group in one amino acid and the polypeptide backbone amino group of another amino acid (N−H group to the C=O group of the amino acid), forming a helical turn with 3.6 amino acid residues. The side chains (R group) protruding out from α- helix is not involved in forming H bonds that maintain the α-helix structure. The pitch of the helix represents the repeating units of the α–helical structure. The pitch of a single turn of helix is 5.4 A. Examples: Keratin, Myoglobin, and Haemoglobin.</p>
+          <p>At the tertiary level, proteins have a three-dimensional shape which is due to interactions between the R groups of the amino acids that make up the protein molecule. Functional groups on the outer surface interact with other molecules forming hydrogen bonding, ionic bonding, dipole-dipole interactions, and London dispersion forces (non-covalent bonds). Hydrophobic interactions are also common in tertiary structure, where nonpolar amino acids with hydrophobic R groups form clustered structures inside the protein, leaving hydrophilic amino acids on the outside to interact with surrounding water molecules. Covalent linkages between the sulfur-containing side chains of cysteine produce disulfide bonds which also contribute to the tertiary structure of proteins. It has been noted that the tertiary structure of amino acids provides functional properties to the polypeptide chain. When protein, such as enzymes, lose their structure, for example,  due to high temperature, the protein gets denatured and lose its biological properties, which indicates that primary structure is applicable in determining the more complex folding. Examples of tertiary structures include globular proteins (most proteins and enzymes within our cells) and fibrous proteins (cartilage). </p>
+          <p>Usually, most proteins are made up of a single polypeptide chain and have only three levels of structure. Some proteins have multiple polypeptide chains, with many subunits, and these subunits join to form the quaternary structure of a protein. Each of these subunits has its own primary, secondary, and tertiary structure and is held by hydrogen bonds and van der Waals forces between nonpolar side chains. Examples included hemoglobin and DNA polymerase. The most common genetic disorders, cystic fibrosis, sickle cell anemia, and albinism, etc., are due to mutations in the primary protein structures leading to alterations in the secondary, tertiary, and probably quarterly structure.</p>
+          <h3 id="visualization-of-protein-structure">Visualization of Protein Structure</h3>
+          <p>Understanding the structure and function of proteins is helpful for biologists in studying the role of proteins in evolution, mutation, drug discovery process, gene finding, micro-array technologies, and solving biological problems. The advanced visualization of protein structures and structure-function relationships relies on molecular-level visualization to evaluate atomistic details of proteins and protein representations and related biomolecular structures. To visualize and analyze biological structures, many resources are available online for exploring structural information at the molecular level. Software for determining and examining structural information of biomolecules is called structure visualization tools. A few examples include pyMOL, RasMol, VMD, Jmol, JSmol, Chimera, Chime, Cn3D, and Swiss-PDB viewer.</p>
+          <p>Users can visualize the secondary and tertiary structure of proteins with the aid of a developed graphical user interface. This simulator was designed and developed by referring to an online protein visualizing tool, PDBe Molstar. Mol* (molstar) is a web-based open-source toolkit used throughout RCSB.org, generating the 2D images available for every structure and entity in the PDB. </p>
+          <h3 id="protein-data-bank-pdb">Protein Data Bank (PDB)</h3>
+          <p>Protein Data Bank (PDB) represents a single global archive for storing, processing, and distributing three-dimensional (3D) structure data of biological macromolecules. Protein Data Bank (pdb.org) was established in 1971 and is thought to be the first open-access, molecular data resource in biology structure determination. It serves as a global repository determining structural information of proteins, DNA, RNA, and their complexes with other molecules and metal ions. It included the data derived from NMR, X-ray crystallography, cryoelectron microscopy, and theoretical modeling. Since 2003, the PDB has been managed jointly managed by the Worldwide Protein Data Bank (wwPDB), a network of four organizations</p>
+          <p>•    Research Collaboratory for Structural Bioinformatics Protein Data Bank (RCSB, PDB)</p>
+          <p>•    PDB in Europe (PDBe) (Europe), </p>
+          <p>•    PDB Japan (PDBj) (Japan), </p>
+          <p>•    Biological Magnetic Resonance Data Bank (BMRB) (USA)</p>
+          <p>The mission was to maintain a single Protein Data Bank repository of macromolecular structural data that can be freely and publicly available to the global community for promoting applied research in education across biosciences.  The wwPDB partners ensure adherence to the FAIR Principles of Findability-Accessibility-Interoperability-Reusability.</p>
+          <p>PDB includes more than 144 000 experimentally determined structures of protein. The number of structures of proteins added to the database is growing rapidly, including ribosomal subunits, viruses, and enzyme complexes.  PDBe developed a browser-based approach to get access to protein structure for analyzing the structural archive using classification systems that are familiar to chemists and biologists. PDBe works in association with European Bioinformatics Institute (EBI) and the international scientific community to develop new resources with value-added information. PDBe Molstar represents a streamlined structure viewer that enables to explore a PDB structure within a browser rather than requiring pre-installed molecular graphics software. It displays validation and domain information for the given protein. Simultaneously it visualizes hundreds of (superimposed) protein structures, play molecular dynamics trajectories, renders cell-level models at atomic detail with tens of millions of atoms, or displays huge models obtained by I/HM such as the Nuclear Pore Complex (<a href="https://molstar.org/">https://molstar.org/</a>). Data in PDB is stored in PDB file format, mmCIF format (macromolecular crystallographic information file), and PDBML format (Protein data bank markup language) and is associated with a pdbid. </p>
+          <p>PDB identification code or PDB Id is a 4-character alphanumeric accession code given to every molecular model in the PDB databank. The first character of the protein code is a number ranging from 1-9, and the last three characters can be either numeral (in the range 0-9) or letters (in the range A-Z). PDB identifiers are used at all levels of the structural hierarchy specifically to select, visualize, and locate a specific ligand and amino acids in a protein chain. Also PDB IDs were used to connect different data resources in the PDB archives and indicate the structural relationship between various biological molecules. Some example of PDB IDS is 7YTT,7UQ2, 7W4K, 8DOV etc.</p>
+          <h3 id="rasmol">RASMOL</h3>
+          <p>Rasmol is a user-friendly open-source molecular graphics program created by Roger Sayle in 1992 for visualizing protein structure, specifically to explore and depict structures of biological macromolecules DNA, proteins, and smaller molecules found in PDB for preparing publication-quality images. The RasMol visualizes the biomolecule with a variety of color schemes and molecule representations, including depth-cued wireframes, 'Dreiding' sticks, space-filling (CPK) spheres, either smooth-shaded solid ribbons or parallel strands, hydrogen bonding, ball and stick, solid and strand biomolecular ribbons, atom labels, and dot surfaces.</p>
+          <h3 id="pymol">PyMOL</h3>
+          <p>PyMOL is an open-source molecular visualization system with a cross-platform that provides a user-friendly interface to visualize the 3D structure of proteins, nucleic acids, small molecules, and other trajectories in different representations, including ribbons, cartoons, dots, surfaces, spheres, sticks, and lines. PyMOL is applied in computational drug discovery processes to find new drug candidates for various targets. Using PyMOL, one can study the structure and function of molecules for designing and optimizing drugs, protein-ligand interactions studies, and visual representation of proteins and their main structural features. </p>
+          
+          </div>
+          <div class="bug-report-mobile">
+              <bug-report id="bug-report" title="[BUG REPORT] VISUALIZATION OF PROTEIN STRUCTURE" page-type="text" context-info="{&quot;organisation&quot;:&quot;Virtual Labs&quot;,&quot;developer_institute&quot;:&quot;AU&quot;,&quot;expname&quot;:&quot;VISUALIZATION OF PROTEIN STRUCTURE&quot;,&quot;labname&quot;:&quot;Virtual Lab&quot;,&quot;phase&quot;:&quot;Testing&quot;}" checkbox-json="{&quot;text&quot;:[&quot;Insufficient Content&quot;],&quot;video&quot;:[&quot;Insufficient Content&quot;],&quot;assesment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;assessment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;simulation&quot;:[&quot;Simulation Not Working&quot;,&quot;Incorrect Results/Observations&quot;,&quot;Insufficient/Incorrect Instructions&quot;],&quot;DEFAULT&quot;:[&quot;Page Not Loading&quot;,&quot;Content Not Visible&quot;,&quot;Incorrect Content&quot;]}" position="override" button_style="
+                          position: fixed; 
+                          bottom: 20px;
+                          right: 20px;
+                          z-index: 1;
+                          font-size: 0;
+                          padding: 25px;
+                          border-radius: 50%;
+                          border: none;
+                          background-color: #0fc0ff;
+                          background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAAAXNSR0IArs4c6QAABiFJREFUaEPFmVuMFEUUhv/TM7uwoBGVyG22u7ZnYGG5REETo8RA1BhFIka8ABFf0PCgDxhFEpCLqAlE1OiTiSj4gFGjD0QBETQaEqPRICALSHdPV+8YQQJBA+wuO1PHdMNcWGame2ZWqMfuc/nq1KlT1acJAzhShjFVAUsYdL8G3HjRdA7gHwna5uahLR91dnaeb9QlNWrA1+/o6GjuPnv2DQ30LICKNhk4qLF63PK8g434rejATJhjKa6m9WazOzOZzKlKTmYAcc8QnxEwJwqIAk5STpvpZJwD1eTHjR43PKflhtkZ2+ovVxbaTJiTSVM/gzCYGIebu4fc1nmi80w5J0nDWA7Qq1GACzLMR3pV7pZMJtNdTs/UzelE6msAQ0BYb7vuS6VyZaGTungGhPfygkRYZ7nusv4OEonEDc2xuEfA0JqgATBhieO6b/fXE0IM1pgPECgVvGP+x/bksFDo1JhUguPZI8FMAz0+zzFtSjqd9p8VRlJvew7E79QKHNgEDjrSndRfNyXEGmasLK4KttmeOysU2hdIGm0vA/xKUZh32VLeW6psCrGMmO+uB5qIeEh398P7jx8/m9cP9pGm9vtpmQ9WjHDzUSkPRYJOpVKDuK9vP0Dj8goMfsSR8ot6IKPoJI22XUBpEHitLWUx6heNVC15pmHMItCXBYeKPUZsLlFWVYNQsVg2nU7v82XaW1tHZ4lGhUEztOlEKOQ4A/b5XHZyuc0aWqdNIbYSY3aY00veM/9te3KE/ywlxGpmrKpJP8h5ftCR8qtyeqHQY3XdVNAO5vMskvMGoRWrT9Ke90QlX6HQF6N16Y4OI28Ampn/jatcxx+ZzJ8NQScSiZZBWvzJwAhhJoCKUQhkaoVmnAZoJcC9WowOH02nf6gWl0iRLpQk3ZwOym0n0DVVg10rNAAF7Ig1xedYltUbtpCRoZO6Po1J+z7S6VcHdLCIClusLnfBgED7NVv1ZX8lYGKYwbrSo8Qogxc4Um5pOD1Mo20DgZ+PBFxPTpcYJuBUljDRdd1jdW/EcYnEmKwWSxNR05WADnwo2mB3pV+oGzopxDowlkYGbjDSF9ILpwd1D2mtdB2uuhEv3D+yfwG4/opCB5WVnrZk+v1yfqtCJ3X9TpC2pybggYj0BYcf29KdXwe0WArCuqsCzSxtT4qq0GareStIXXo3JjxGwNSrAh0crMFFq3jYEJ9wpPygkB6mYZwg0PCaAcsp1Hm4RPFtS5eK0LpxvqayVs3DlYIO7r0K8xUhlufRGKNrupLmFQcImsEZBhWaOxq4y5ZyRvXqIcSnYDwaZdkukRkgaGqK32RZ1on+/qt/buliFRFWXxXokonXBJ3S22Yz8darAc2sdjqed1/NddpvnMQUHwPRdTWBD0R6EBbbrltoGJX6D71PJ3V9E0h76kpCMzirNTWNLpfPPkcodNDXi6m9QLGqhE6gwUgzaKMj04sq+QmF9hVrjnYj0IwejmvtjuN4DUEbhjEqztgLoqCXEToagQavsKV8rZqPSJH2DaSEmMGMXZHSpE5oZnzneK7fL8w1DJ1sTU6CltvEwPj/88OWwRYx77Y9b3HD0KYuvqUL/Y5oo85I542TooesrnTF8yE0PUwh5hGj6tfxZTNpEBqKvUE9QyfW9bnV3t5+bV9P7yECxuTBFGOvRn5v5eJgTLzsUhUFmuGCcLJoBiNL/ZT7bVFYiWrrnTSM9QC9WBSmzy2ZnluqI4QYGQcWM/O8Qi+7EjSjB4xtTNqHjuf4HVHO20q1tiZZi/k/j1r8Z8zcRxyfanfZv/dnrJgeYw1jQo6xr+SOfY5j2oRq9VMIIWLA7QSMslz3raDGG8ZMJhoPpR1QmvrFdd2eSoFKGm0rAF5bfM97bCnvKp2c/64idFLXd4C0woWFwMstKV+PthPrk/L/R/aeOfcbCBOKq8uLLCk3llos/0tON+8hUt+U5O1Rao5PjtIcrA+3qOWvDEC78wFlIO1I1wyFTuptC0G8uWSZHrCl3N4oUFT9NiE2a4yFQW6DLUfKsaHQU0aMGHq2pWULM98Bpncdzy35yxXVdf1yftXK9vS8CUVjtBjWHHXdn0qt/Qf/x1JblU8EiAAAAABJRU5ErkJggg==);
+                          background-repeat: no-repeat;
+                          background-position: center;
+                          background-size: 30px;
+                          filter: invert(1);">
+              </bug-report>
+          </div>        </div>
+      </div>
+      <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+        <div class="row px-5 mx-0">
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+            <a href="https://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+            <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+            <a href="https://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+            <span> Phone: General Information: 011-26582050 </span>
+            <span> Email: support@vlabs.ac.in </span>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+            <div class="social-links">
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+      	  <i class="fab fa-twitter"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+      	  <i class="fab fa-facebook"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+      	  <i class="fab fa-youtube"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+      	  <i class="fab fa-linkedin"></i>
+      	</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
+          <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+          &nbsp;&amp;&nbsp;
+          <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+        </div>
+      </footer>
+    <script src="./assets/js/toggleSidebar.js"></script>
+    <script src="./assets/js/event-handler.js"></script>
+
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register("sw.js");
+        });
+      }
+    </script>
+  
+
+<script type="module" src="https://virtual-labs.github.io/svc-bug-report/client/src/bug-report.js"></script><script type="module" src="plugins/svc-rating/index.js"></script><script type="module" src="plugins/svc-rating/config.js"></script><script type="module" src="https://apis.google.com/js/api.js"></script></body></html>
